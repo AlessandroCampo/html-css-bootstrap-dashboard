@@ -1,0 +1,18 @@
+input[type="search"] {
+    padding-left: 2em;
+    background-image: url("img/search.svg");
+    background-repeat: no-repeat;
+    background-position: 0.5%;
+    background-origin: border-box;
+}
+
+.bg-light-blue {
+    background-color: #e5e5e5;
+}
+
+aside .col-auto {
+    background-image: url(img/sidebar-bg.png);
+    background-color: #051e34;
+    background-size: cover;
+    border: 1px solid lime;
+}
