@@ -1,8 +1,8 @@
 input[type="search"] {
-    padding-left: 2em;
+    padding-left: 50px;
     background-image: url("img/search.svg");
     background-repeat: no-repeat;
-    background-position: 0.5%;
+    background-position: 20px;
     background-origin: border-box;
 }
 
@@ -15,4 +15,10 @@ aside .col-auto {
     background-color: #051e34;
     background-size: cover;
     border: 1px solid lime;
+}
+
+#navbarSupportedContent {
+    flex-basis: 10%;
+    margin-left: auto;
+    display: flex;
 }
