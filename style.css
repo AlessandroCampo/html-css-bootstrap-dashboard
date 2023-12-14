@@ -1,28 +1,55 @@
 input[type="search"] {
-    padding-left: 50px;
     background-image: url("img/search.svg");
     background-repeat: no-repeat;
     background-position: 20px;
     background-origin: border-box;
 }
 
+
+
+
 .bg-light-blue {
     background-color: #e5e5e5;
+}
+
+.bg-blue {
+    background-color: #1b72e8;
+}
+
+#navbarSupportedContent {
+    display: flex;
+}
+
+header nav.navbar {
+    height: 80px;
+}
+
+.navbar-brand img {
+    width: auto;
+    max-height: 60px;
+}
+
+.navbar-brand {
+    max-height: 100%;
 }
 
 aside .col-auto {
     background-image: url(img/sidebar-bg.png);
     background-color: #051e34;
     background-size: cover;
-    border: 1px solid lime;
 }
 
-#navbarSupportedContent {
-    flex-basis: 10%;
-    margin-left: auto;
-    display: flex;
-}
 
 aside .col-auto {
     min-width: 9%;
+    justify-content: space-between;
+}
+
+aside .row {
+    min-height: calc(100vh - 80px)
+}
+
+aside .sidebar {
+    height: 100%;
+
 }
