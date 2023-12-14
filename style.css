@@ -22,3 +22,7 @@ aside .col-auto {
     margin-left: auto;
     display: flex;
 }
+
+aside .col-auto {
+    min-width: 9%;
+}
