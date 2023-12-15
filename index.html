@@ -20,105 +20,164 @@
             <div class="container-fluid flex-nowrap">
                 <a class="navbar-brand me-4" href="#">
                     <img src="img/logo.svg" alt="boolean-logo" class="d-none d-lg-block">
-                    <img src="img/mobile-logo.png" alt="boolean-logo" class="d-lg-none">
+                    <img src="img/mobile-logo.png" alt="boolean-logo" class="d-lg-none" style="width: 50px;">
                 </a>
 
 
-                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
-                    <input class="form-control bg-light-blue me-3 ps-5" type="search"
+                <div class="d-flex w-100 bg-light-blue rounded">
+                    <button type="button" class="btn bg-light-blue border-0">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input class="form-control bg-light-blue me-3 border-0" type="search"
                         placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-row">
-                        <li class="nav-item d-none d-lg-block">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                    class="bi bi-list-ul" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item d-none d-lg-block">
-                            <a class="nav-link" href="#">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                    class="bi bi-question-circle-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item d-none d-lg-block">
-                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                    class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-                                    <path
-                                        d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ff8f00"
-                                    class="bi bi-bell-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
-                                </svg>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="#">Profilo</a></li>
-                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                                <li><a class="dropdown-item" href="#">Logout</a></li>
-                            </ul>
-
-                        </li>
-                    </ul>
-
                 </div>
+
+                <ul class="navbar-nav ms-2 mb-2 mb-lg-0 flex-row">
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-list-ul" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link" href="#" role="button" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ff8f00"
+                                class="bi bi-bell-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
-    <aside>
-        <div class="container-fluid">
-            <div class="row flex-nowrap">
-                <div class="col-auto py-3">
-                    <div
-                        class="sidebar d-flex flex-column align-items-center justify-content-between align-items-lg-start px-3 pt-2 text-white">
 
-                        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-lg-start"
-                            id="menu">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link align-middle px-0 text-white">
-                                    <i class="fa-solid fa-house"></i> <span class="ms-1 d-none d-lg-inline">Home</span>
-                                </a>
+    <main>
+        <div class="d-flex container-fluid">
+            <div
+                class="sidebar d-flex flex-column align-items-start justify-content-between align-items-lg-start px-2 pt-2 text-white">
+
+                <ul class="nav nav-pills nav-flush tex-center flex-column mb-auto" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 text-white d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-house"></i> <span class=" d-none d-lg-inline">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 text-white d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-chart-simple"></i> <span class="d-none d-lg-inline">Stats</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 text-white d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class=" d-none d-lg-inline">Signal</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav nav-pills nav-flush tex-center">
+                    <a href="#" class="nav-link py-3 text-white d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-gear"></i> <span class=" d-none d-lg-inline">Admin</span>
+                    </a>
+                </div>
+            </div>
+            <div class="content w-100">
+                <div class="row bg-primary py-3 px-3 align-items-start justify-content-between">
+                    <div class="col-12 col-xl-2 order-md-2 col-lg-3">
+                        <button type="button" class="btn btn-primary d-flex align-items-center gap-4 px-0">
+                            <span class="fs-5">Nuovo Studente</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                class="bi bi-plus-square" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z">
+                                </path>
+                                <path
+                                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4">
+                                </path>
+                            </svg>
+
+                        </button>
+                    </div>
+                    <div class="col-12 col-xl-6 col-lg-4 order-md-0">
+                        <h2 class="text-white mb-3">Boolean <span class="badge bg-dark-blue rounded-pill fs-6">Piano
+                                Belze</span>
+                        </h2>
+
+                        <ul class="list-unstyled d-flex gap-2">
+                            <li>
+                                <span class="badge bg-dark-blue rounded-pill fs-6">3 App</span>
                             </li>
-
-                            <li class="nav-item">
-                                <a href="#" class="nav-link align-middle px-0 text-white">
-                                    <i class="fa-solid fa-chart-simple"></i> <span
-                                        class="ms-1 d-none d-lg-inline">Stats</span>
-                                </a>
+                            <li>
+                                <i class="fa-solid fa-angles-right text-white"></i>
                             </li>
-
-
-                            <li class="nav-item">
-                                <a href="#" class="nav-link align-middle px-0 text-white">
-                                    <i class="fa-solid fa-signal"></i> <span
-                                        class="ms-1 d-none d-lg-inline">Signal</span>
-                                </a>
+                            <li>
+                                <span class="badge bg-dark-blue rounded-pill fs-6 d-xl-none">
+                                    <i class="fa-solid fa-plus"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="badge bg-dark-blue rounded-pill fs-6 d-none d-xl-inline-block"> Boolean
+                                    mobile app</span>
+                            </li>
+                            <li>
+                                <span class="badge bg-dark-blue rounded-pill fs-6 d-none d-xl-inline-block"> Boolean
+                                    web app</span>
+                            </li>
+                            <li>
+                                <span class="badge bg-dark-blue rounded-pill fs-6 d-none d-xl-inline-block"> Boolean
+                                    blog app</span>
                             </li>
                         </ul>
 
-                        <div>
-                            <a href="#" class="nav-link align-middle px-0 text-white ">
-                                <i class="fa-solid fa-chart-simple"></i> <span
-                                    class="ms-1 d-none d-lg-inline">Admin</span>
-                            </a>
-                        </div>
-
                     </div>
-    </aside>
-    <main>
+                    <div class="col-12 col-xl-3 col-lg-4">
+                        <div class="text-white fs-5">
+                            Studenti online negli ultimi 30 minuti
+                        </div>
+                        <div class="text-white fs-1 fw-bold">
+                            125
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
     </main>
+
 
 
 
