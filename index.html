@@ -174,274 +174,570 @@
                 <div class="section-container row">
                     <div class="sections-left col-xl-8 col-12">
                         <section id="next-classes" class="px-3 py-2">
-                            <div class="border border-dark-subtle mt-3 bg-body-tertiary">
-                                <h3 class="p-2">
-                                    Prossime classi
-                                </h3>
+                            <div class="lg-table-container d-none d-md-block">
+                                <div class="border border-dark-subtle mt-3 bg-body-tertiary">
+                                    <h3 class="p-2">
+                                        Prossime classi
+                                    </h3>
+                                </div>
+                                <table class="table table-borderless border rounded border-dark-subtle border-top-0">
+
+                                    <thead>
+                                        <tr>
+
+                                            <th scope="col" class="text-dark" style="width: 40%;">Nome</th>
+                                            <th scope="col" class="text-dark">Data inizio</th>
+                                            <th scope="col" class="text-dark">Roi</th>
+                                            <th scope="col" class="text-dark">Stato</th>
+                                            <th scope="col" class="text-dark text-center">Azioni</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 75
+                                            </td>
+                                            <td class="text-dark fw-semibold">15 Feb 2021</td>
+                                            <td class="text-dark fw-semibold"> 20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 76
+                                            </td>
+                                            <td class="text-dark fw-semibold">16 Feb 2021</td>
+                                            <td class="text-dark fw-semibold"> 20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 77
+                                            </td>
+                                            <td class="text-dark fw-semibold">17 Feb 2021</td>
+                                            <td class="text-dark fw-semibold"> 20%</td>
+                                            <td><span class="badge text-bg-warning text-white">Process</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 115
+                                            </td>
+                                            <td class="text-dark fw-semibold">25 Oct 2023</td>
+                                            <td class="text-dark fw-semibold"> 20%</td>
+                                            <td><span class="badge text-bg-danger text-white">Failed</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 78
+                                            </td>
+                                            <td class="text-dark fw-semibold">18 Feb 2021</td>
+                                            <td class="text-dark fw-semibold"> 20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 79
+                                            </td>
+                                            <td class="text-dark fw-semibold">19 Feb 2021</td>
+                                            <td class="text-dark fw-semibold"> 20%</td>
+                                            <td><span class="badge text-bg-warning text-white">Process</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 80
+                                            </td>
+                                            <td class="text-dark fw-semibold">20 Feb 2021</td>
+                                            <td class="text-dark fw-semibold"> 20%</td>
+                                            <td><span class="badge text-bg-danger text-white">Failed</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 81
+                                            </td>
+                                            <td class="text-dark fw-semibold">21 Feb 2021</td>
+                                            <td class="text-dark fw-semibold"> 20%</td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
                             </div>
-                            <table class="table table-borderless border rounded border-dark-subtle border-top-0">
 
-                                <thead>
-                                    <tr>
+                            <div class="sm-table-container d-md-none">
+                                <div class="border border-dark-subtle mt-3 bg-body-tertiary">
+                                    <h3 class="p-2">
+                                        Prossime classi
+                                    </h3>
+                                </div>
+                                <table class="table table-borderless border rounded border-dark-subtle border-top-0">
 
-                                        <th scope="col" class="text-dark">Nome</th>
-                                        <th scope="col" class="text-dark">Data inizio</th>
-                                        <th scope="col" class="text-dark">Roi</th>
-                                        <th scope="col" class="text-dark">Stato</th>
-                                        <th scope="col" class="text-dark">Azioni</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="border-top">
-                                        <td class="text-dark fw-semibold d-flex align-items-center gap-2">
-                                            <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
-                                            Classe 75
-                                        </td>
-                                        <td class="text-dark fw-semibold">15 Feb 2021</td>
-                                        <td class="text-dark fw-semibold"> 20%</td>
-                                        <td><span class="badge text-bg-success">Done</span></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
+                                    <thead>
+                                        <tr>
 
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                            <th scope="col" class="text-dark" style="width: 40%;">Nome</th>
+                                            <th scope="col" class="text-dark">Stato</th>
+                                            <th scope="col" class="text-dark text-center">Azioni</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 75
+                                            </td>
 
-                                    <tr class="border-top">
-                                        <td class="text-dark fw-semibold d-flex align-items-center gap-2">
-                                            <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
-                                            Classe 75
-                                        </td>
-                                        <td class="text-dark fw-semibold">15 Feb 2021</td>
-                                        <td class="text-dark fw-semibold"> 20%</td>
-                                        <td><span class="badge text-bg-success">Done</span></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
 
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                    <tr class="border-top">
-                                        <td class="text-dark fw-semibold d-flex align-items-center gap-2">
-                                            <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
-                                            Classe 75
-                                        </td>
-                                        <td class="text-dark fw-semibold">15 Feb 2021</td>
-                                        <td class="text-dark fw-semibold"> 20%</td>
-                                        <td><span class="badge text-bg-success">Done</span></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 76
+                                            </td>
 
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
 
-                                    <tr class="border-top">
-                                        <td class="text-dark fw-semibold d-flex align-items-center gap-2">
-                                            <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
-                                            Classe 75
-                                        </td>
-                                        <td class="text-dark fw-semibold">15 Feb 2021</td>
-                                        <td class="text-dark fw-semibold"> 20%</td>
-                                        <td><span class="badge text-bg-success">Done</span></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 77
+                                            </td>
 
-                                    <tr class="border-top">
-                                        <td class="text-dark fw-semibold d-flex align-items-center gap-2">
-                                            <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
-                                            Classe 75
-                                        </td>
-                                        <td class="text-dark fw-semibold">15 Feb 2021</td>
-                                        <td class="text-dark fw-semibold"> 20%</td>
-                                        <td><span class="badge text-bg-success">Done</span></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
+                                            <td><span class="badge text-bg-warning text-white">Process</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
 
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                    <tr class="border-top">
-                                        <td class="text-dark fw-semibold d-flex align-items-center gap-2">
-                                            <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
-                                            Classe 75
-                                        </td>
-                                        <td class="text-dark fw-semibold">15 Feb 2021</td>
-                                        <td class="text-dark fw-semibold"> 20%</td>
-                                        <td><span class="badge text-bg-success">Done</span></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 115
+                                            </td>
 
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                            <td><span class="badge text-bg-danger text-white">Failed</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
 
-                                    <tr class="border-top">
-                                        <td class="text-dark fw-semibold d-flex align-items-center gap-2">
-                                            <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
-                                            Classe 75
-                                        </td>
-                                        <td class="text-dark fw-semibold">15 Feb 2021</td>
-                                        <td class="text-dark fw-semibold"> 20%</td>
-                                        <td><span class="badge text-bg-success">Done</span></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 78
+                                            </td>
 
-                                    <tr class="border-top">
-                                        <td class="text-dark fw-semibold d-flex align-items-center gap-2">
-                                            <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
-                                            Classe 75
-                                        </td>
-                                        <td class="text-dark fw-semibold">15 Feb 2021</td>
-                                        <td class="text-dark fw-semibold"> 20%</td>
-                                        <td><span class="badge text-bg-success">Done</span></td>
-                                        <td>
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
 
-                                            <button type="button" class="btn btn-outline-secondary">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
-                                                    </path>
-                                                </svg>
-                                                <span class="visually-hidden">Button</span>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
 
-                                </tbody>
-                            </table>
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 79
+                                            </td>
+
+                                            <td><span class="badge text-bg-warning text-white">Process</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 80
+                                            </td>
+
+                                            <td><span class="badge text-bg-danger text-white">Failed</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="border-top">
+                                            <td class="text-dark fw-semibold d-flex align-items-center gap-2">
+                                                <img src="img/class-avatar.jpg" alt="" style="width: 30px;">
+                                                Classe 81
+                                            </td>
+                                            <td><span class="badge text-bg-success">Done</span></td>
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-pencil-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+
+                                                <button type="button" class="btn btn-outline-secondary">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-trash-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0">
+                                                        </path>
+                                                    </svg>
+                                                    <span class="visually-hidden">Button</span>
+                                                </button>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+
                         </section>
                         <section id="faq" class="px-3 py-2">
                             <div class="border border-dark-subtle mt-3 bg-body-tertiary">
