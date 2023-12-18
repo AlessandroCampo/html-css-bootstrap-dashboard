@@ -57,6 +57,12 @@ tbody {
     width: 50vw !important;
 }
 
-* {
+body {
     overflow-y: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .offcanvas {
+        width: 100vw !important;
+    }
 }
