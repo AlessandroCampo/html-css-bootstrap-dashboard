@@ -31,11 +31,11 @@ header nav.navbar {
     background-image: url(img/sidebar-bg.png);
     background-color: #051e34;
     background-size: cover;
-    min-height: calc(100vh - 80px)
+    min-height: calc(100vh)
 }
 
 .content {
-    height: calc(100vh - 80px);
+    height: calc(100vh);
 }
 
 
@@ -46,4 +46,17 @@ main .container-fluid,
 
 tbody {
     padding-inline: 5000px;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 40px;
+}
+
+.offcanvas {
+    width: 50vw !important;
+}
+
+* {
+    overflow-y: hidden;
 }

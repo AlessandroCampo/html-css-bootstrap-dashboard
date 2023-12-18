@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Dashboard</title>
 </head>
 
@@ -26,7 +26,7 @@
                 </a>
 
 
-                <div class="d-flex w-100 bg-light-blue rounded">
+                <div class="d-flex w-75 bg-light-blue rounded">
                     <button type="button" class="btn bg-light-blue border-0">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
@@ -79,6 +79,8 @@
                     </li>
                 </ul>
             </div>
+
+
         </nav>
     </header>
 
@@ -118,7 +120,9 @@
             <div class="content w-100 overflow-y-auto">
                 <div class="row bg-primary py-5 px-3 align-items-start justify-content-between">
                     <div class="col-12 col-xl-2 order-md-2 col-lg-3 mb-4">
-                        <button type="button" class="btn btn-primary d-flex align-items-center gap-4 px-0">
+                        <button type="button" class="btn btn-primary d-flex align-items-center gap-4 px-0"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                            aria-controls="offcanvasExample">
                             <span class="fs-5">Nuovo Studente</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                                 class="bi bi-plus-square" viewBox="0 0 16 16">
@@ -173,6 +177,94 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- OFFCANVAS -->
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <form>
+                            <div class="d-flex gap-2">
+                                <div class="mb-3 w-50">
+                                    <label for="exampleInputName" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="exampleInputName">
+
+                                </div>
+                                <div class="mb-3 w-50">
+                                    <label for="exampleInputLName" class="form-label">Cognome</label>
+                                    <input type="text" class="form-control" id="exampleInputLName">
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <div class="mb-3 w-50">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1">
+
+                                </div>
+                                <div class="mb-3 w-50">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="mb-3">
+                                    <label for="address" class="form-label">Indirizzo</label>
+                                    <input type="text" class="form-control" id="address">
+                                </div>
+                            </div>
+
+                            <div class="d-flex gap-2">
+                                <div class="mb-3 w-50">
+                                    <label for="city" class="form-label">Città</label>
+                                    <input type="text" class="form-control" id="city">
+
+                                </div>
+                                <div class="mb-3 w-50">
+                                    <label for="state" class="form-label">Stato</label>
+                                    <select name="state" id="state" class="form-control">
+                                        <option value="" disabled selected hidden>Scegli...</option>
+                                        <option value="Italia">Italia</option>
+                                        <option value="Italia">Italia</option>
+                                        <option value="Italia">Italia</option>
+                                        <option value="Italia">Italia</option>
+                                        <option value="Italia">Italia</option>
+                                        <option value="Italia">Italia</option>
+                                    </select>
+
+                                </div>
+
+                                <div class="mb-3 w-33">
+                                    <label for="cap" class="form-label">Città</label>
+                                    <input type="text" class="form-control" id="cap">
+
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="mb-3">
+                                    <label for="myfile" class="form-label">Foto</label>
+                                    <input type="file" id="myfile" name="myfile" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Salva</button>
+                            <button type="reset" class="btn btn-warning">Svuota</button>
+
+                        </form>
+                    </div>
+                </div>
+
+
+
                 <div class="section-container row">
                     <div class="sections-left col-xl-8 col-12">
                         <section id="next-classes" class="px-3 py-2">
